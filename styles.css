@@ -142,19 +142,3 @@ footer{padding:48px 0 26px;background:#0d0e0d}.footer-grid{display:grid;grid-tem
   .rag-node{top:4%}.cloud-node{bottom:8%}
   .mini-ui{display:none}.figure-caption{font-size:8px;bottom:12px}
 }
-
-/* Additional premium homepage visual retained alongside the code-built figure */
-.hero-showcase{padding:0 0 42px;border-bottom:0}
-.home-image-frame{
-  position:relative;overflow:hidden;border-radius:24px;border:1px solid var(--line);
-  background:#0c0e0c;box-shadow:var(--shadow)
-}
-.home-image-frame:after{
-  content:"";position:absolute;inset:0;pointer-events:none;
-  box-shadow:inset 0 0 0 1px rgba(184,243,74,.04)
-}
-.home-image-frame img{width:100%;height:auto;display:block}
-@media(max-width:640px){
-  .hero-showcase{padding-bottom:28px}
-  .home-image-frame{border-radius:18px}
-}
